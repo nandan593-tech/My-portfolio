@@ -1,0 +1,14 @@
+header{
+    width : 100%;
+    height: 200px;
+    background-color:#0f0f0f ;
+    color:#dfbf06df;
+    text-align: center;
+}
+#but1{background-color: rgb(19, 108, 187);
+    padding:0%;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+
+} 
