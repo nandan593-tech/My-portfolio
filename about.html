@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>My portfolio</title>
+    <style>
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        float: center;
+        flex-direction: column;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
  </head>
  <body>
     <header>
@@ -18,19 +29,17 @@
     </header>
     <main>
         <section>
-            <div id="about-section">
-                        <div id="bio"><h2>N.Nandan Kumar</h2>
-                          <p> 
+            <div id="about-section" class="about-section">
+                        <h2>N.Nandan Kumar</h2>
+                         <p> 
                             <h3>Bio</h3><br>
-                               Hello everyone i am <i> <b>N.Nandan Kumar</b> </i> i am currently studying btech in Anantha lakshmi institute of technology.<br>
+                               Hello everyone i am <i> <b>N.Nandan Kumar</b> </i><br> i am currently studying btech in Anantha lakshmi institute of technology.<br>
                                I am from cse branch and i am a web developer.<br>
                                I have a keen interest in to create web applications.<br>
                           </p>
-                        </div>
-               <div id="photo2">
-                 <img src="photo2.jpg" alt="Profile Picture">
-               </div>
-           
+            </div>
+            <div class="profile-pic">
+                <img src="photo2.jpg" alt="Profile Picture" id="photo1">
             </div>
         </section>
     </main>
