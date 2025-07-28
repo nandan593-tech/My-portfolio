@@ -26,7 +26,7 @@ a{
 }
 main{
     width: 100%;
-    height: 95vh;
+    height: 80vh;
     background-color:#dfbf06df;
     color:#0f0f0f;
     padding: 20px;
@@ -74,4 +74,27 @@ footer {
     padding: 20px;
     justify-content: center;
     flex-direction: column;
+}
+legend{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0f0f0f;
+    text-align: center;
+}
+legend{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0f0f0f;
+    text-align: center;
+}
+fieldset{
+    border: 2px solid #0f0f0f;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f9f9f9;
+}
+footer a {
+    color: #dfbf06df;
+    text-decoration: none;
 }
