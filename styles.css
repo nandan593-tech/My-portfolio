@@ -1,7 +1,7 @@
 header{
     width : 100%;
     height: 30vh;
-    background-color:#5c0338;
+    background-color:#a70fd5;
     color: #e0e0e0;
     text-align: center;
     display: inline-flex;
@@ -38,7 +38,7 @@ main{
 footer {
     width: 100%;
     height: 15vh;
-    background-color:#5c0338;
+    background-color:#a70fd5;
     color: #e0e0e0;
     text-align: center;
     padding: 10px;
