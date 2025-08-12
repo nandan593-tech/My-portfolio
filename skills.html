@@ -6,13 +6,25 @@
     <link rel="stylesheet" href="styles.css">
     <title>My portfolio</title>
     <style>
-        main{
-            height:135vh;
-        }
-        fieldset {
-            color: black;
-             box-shadow: 0 4px 20px rgb(8, 203, 229);
-        }
+       main{
+            height:150vh;
+           }
+    fieldset {
+        color: black;
+        box-shadow: 0 4px 20px rgb(8, 203, 229);
+    }
+    .my-skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    legend {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     </style>
  </head>
  <body>
@@ -27,9 +39,9 @@
     </header>
     <main>
         <section>
-           
-            <fieldset>
-                <legend> <h2 style="color:#ee2bd7; text-align:center;"><i>MY SKILLS</i></h2></legend>
+
+            <fieldset id="my-skills">
+                <legend> <h2 style="color: #dfbf06df; text-align:center;"><i>MY SKILLS</i></h2></legend>
                 <fieldset>
                     <legend> <h3>WEBDEVELOPMENT</h3></legend>
                     <div >
@@ -69,11 +81,17 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 N.Nandan Kumar. All rights reserved.</p>
-        <h3>Follow me on:
-            <a href="https://www.linkedin.com/in/nichanametla-nandan-kumar-a88b28353">LinkedIn</a>
-            <a href="https://github.com/nandan593-tech">GitHub</a>
-        </h3>
-    </footer>
+    <p>&copy; 2023 N.Nandan Kumar. All rights reserved.</p>
+    <h3>Follow me on:
+        <a href="https://www.linkedin.com/in/nichanametla-nandan-kumar-a88b28353">
+            <img src="linkedin.jpg" alt="LinkedIn Logo" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
+            LinkedIn
+        </a>
+        <a href="https://github.com/nandan593-tech">
+            <img src="github.jpg" alt="GitHub Logo" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
+            GitHub
+        </a>
+    </h3>
+</footer>
  </body>
  </html>
