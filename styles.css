@@ -155,12 +155,19 @@ footer {
     position: relative;
 }
 
-footer a {
+a:not(footer a) {
+    color: var(--accent);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
     color: var(--accent-soft);
     text-decoration: none;
 }
 
-a {
-    color: var(--accent);
-    font-family: Arial, Helvetica, sans-serif;
+footer a:hover,
+footer a:focus {
+    color: #7DD3FC;
 }

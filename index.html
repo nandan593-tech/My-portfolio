@@ -1,6 +1,6 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -9,41 +9,51 @@
         .center{
             text-align: center;
             padding: 40px;
-
         }
     </style>
- </head>
- <body>
+</head>
+<body>
     <header>
-             <h1>Aspiring AI Engineer & Full-Stack Developer</h1>
-            <div>
-                    <button id="but1" onclick="alert('Hello ' + prompt('Enter your name:')+'Welcome to ABOUT PAGE');"><a href="about.html">About</a></button>
-                    <button id="but1" onclick="alert('Hello ' + prompt('Enter your name:')+'Welcome to SKILLS PAGE');"><a href="skills.html">Skills</a></button>
-                    <button id="but1" onclick="alert('Hello ' + prompt('Enter your name:')+'Welcome to PROJECTS PAGE');"><a href="projects.html">Projects</a></button>
-                    <button id="but1" onclick="alert('Hello ' + prompt('Enter your name:')+'Welcome to CONTACT PAGE');"><a href="contact.html">Contact</a></button>
-            </div>
+        <h1>Aspiring AI Engineer & Full-Stack Developer</h1>
+        <div>
+            <button id="but1"><a href="about.html">About</a></button>
+            <button id="but1"><a href="skills.html">Skills</a></button>
+            <button id="but1"><a href="projects.html">Projects</a></button>
+            <button id="but1"><a href="contact.html">Contact</a></button>
+        </div>
+        <div id="greet"></div>
     </header>
+
     <main>
         <section>
             <div class="img">
-            <img src="photo.jpeg" alt="Profile Picture" id="photo1">
-            <h2 style="text-align: center;">N.Nandan Kumar</h2></div>
-            <div class="center"><p>I'm a web developer focused on building responsive, accessible, and user-friendly web applications. Explore my skills, projects, and contact details below.</p></div>
-             </section>
+                <img src="photo.jpeg" alt="Profile Picture" id="photo1">
+                <h2 style="text-align: center;">N.Nandan Kumar</h2>
+            </div>
+            <div class="center">
+                <p>I'm a web developer focused on building responsive, accessible, and user-friendly web applications. Explore my skills, projects, and contact details below.</p>
+            </div>
+        </section>
     </main>
-    <footer>
-    <p>&copy; 2025 N.Nandan Kumar. All rights reserved.</p>
-    <h3>Follow me on:
-        <a href="https://www.linkedin.com/in/nichanametla-nandan-kumar-a88b28353">
-            <img src="linkedin.jpg" alt="LinkedIn Logo" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
-            LinkedIn
-        </a>
-        <a href="https://github.com/nandan593-tech">
-            <img src="github.jpg" alt="GitHub Logo" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
-            GitHub
-        </a>
-    </h3>
-</footer>
 
- </body>
- </html>
+    <footer>
+        <p>&copy; 2025 N.Nandan Kumar. All rights reserved.</p>
+        <h3>Follow me on:
+            <a href="https://www.linkedin.com/in/nichanametla-nandan-kumar-a88b28353">
+                <img src="linkedin.jpg" alt="LinkedIn Logo" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
+                LinkedIn
+            </a>
+            <a href="https://github.com/nandan593-tech">
+                <img src="github.jpg" alt="GitHub Logo" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">
+                GitHub
+            </a>
+        </h3>
+    </footer>
+
+    <script>
+        let gr = document.getElementById("greet");
+        let pr = prompt("Enter your name:");
+        gr.innerHTML = "<h2>Welcome to My Portfolio! MR " + pr + "</h2>";
+    </script>
+</body>
+</html>
